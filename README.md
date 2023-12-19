@@ -1,1 +1,1 @@
-# budgeting
+# manual
