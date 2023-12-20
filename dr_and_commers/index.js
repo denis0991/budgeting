@@ -24,6 +24,7 @@ expenseTable.addEventListener('click', () => {
     kpi.classList.remove('btn_active');
     kpi.classList.add('btn');
     addDisable(mainIncome);
+    mainKpi.classList.add('disable');
 
 })
 
@@ -42,6 +43,7 @@ employees.addEventListener('click', () => {
     kpi.classList.remove('btn_active');
     kpi.classList.add('btn');
     addDisable(mainIncome);
+    mainKpi.classList.add('disable');
 
 })
 
@@ -60,6 +62,8 @@ finalExpense.addEventListener('click', () => {
     income.classList.remove('btn_active');
     income.classList.add('btn');
     addDisable(mainIncome);
+    mainKpi.classList.add('disable');
+
 })
 
 income.addEventListener('click', () => {
@@ -77,6 +81,8 @@ income.addEventListener('click', () => {
     addDisable(mainFinalExpense);
     addDisable(mainExpenseTable);
     mainIncome.classList.remove('disable');
+    mainKpi.classList.add('disable');
+
 })
 
 kpi.addEventListener('click', () => {
